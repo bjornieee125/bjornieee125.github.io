@@ -1,14 +1,11 @@
 ---
 # Copy to _posts/YYYY-MM-DD-nom-ctf-challenge.md and fill in.
-layout: post
 title: "[CTF Name] — Challenge Name"
+summary: "Short description of the challenge and what you learned."
 date: 2025-01-01 12:00:00 +0100
-description: "Short description of the challenge and what you learned."
-tags: [web] # one or more of: web | mobile | forensics | crypto | reverse | pwn | osint | misc
-categories: [ctf]
-# thumbnail: assets/img/writeups/ctf-name.png
-toc:
-  beginning: true
+categories: [web] # filter: web | mobile | forensics | crypto | reverse | pwn | osint | misc
+tags: [ctf]
+# thumbnail: /assets/img/writeups/ctf-name.png
 ---
 
 ## Challenge Info

@@ -1,64 +1,42 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
+gem 'jekyll', '~> 4.3.3'
+gem 'faraday-retry'
+gem 'backports', '~> 3.25.0'
+gem 'kramdown'
+gem 'puma'
+gem 'csv'
+gem 'base64'
 
-# Core plugins that directly affect site building
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem "github-pages", group: :jekyll_plugins
+# you can read more about it here 
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+# https://pages.github.com/versions/
+
+# Plugins
 group :jekyll_plugins do
-    gem 'jekyll-3rd-party-libraries'
-    gem 'jekyll-archives-v2'
-    gem 'jekyll-cache-bust'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-feed'
-    gem 'jekyll-get-json'
-    gem 'jekyll-imagemagick'
-    gem 'jekyll-jupyter-notebook'
-    gem 'jekyll-link-attributes'
-    gem 'jekyll-minifier'
-    gem 'jekyll-paginate-v2'
-    gem 'jekyll-regex-replace'
-    gem 'jekyll-scholar'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-socials'
-    gem 'jekyll-tabs'
-    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
-    gem 'jekyll-toc'
-    gem 'jekyll-twitter-plugin'
-    gem 'jemoji'
+    # gem 'devlopr', '~> 0.4.5'
+    gem 'jgd', '~> 1.14.0'
+    gem 'jekyll-feed', '~> 0.17.0'
+    gem 'jekyll-paginate', '~> 1.1.0'
+    gem 'jekyll-gist', '~> 1.5.0'
+    gem 'jekyll-seo-tag', '~> 2.8.0'
+    gem 'jekyll-sitemap', '~> 1.4.0'
 
-    gem 'classifier-reborn'  # used for content categorization during the build
+    # gem 'jekyll-admin', '~> 0.11.1'
 end
 
-# Gems for development or external data fetching (outside :jekyll_plugins)
-group :other_plugins do
-    gem 'css_parser'
-    gem 'observer'       # used by jekyll-scholar
-    gem 'ostruct'        # used by jekyll-twitter-plugin
-    # gem 'terser'         # used by jekyll-terser
-    # gem 'unicode_utils' -- should be already installed by jekyll
-    # gem 'webrick' -- should be already installed by jekyll
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+  gem "tzinfo", "~> 2.0"
+  gem "tzinfo-data"
 end
 
-# Gems for al-folio plugins
-group :al_folio_plugins do
-    gem 'al_folio_core', '= 1.0.15'
-    gem 'al_icons', '= 1.0.0'
-    gem 'al_folio_cv', '= 1.0.2'
-    gem 'al_folio_distill', '= 1.0.3'
-    gem 'al_folio_upgrade', '= 1.0.3'
-    gem 'al_folio_bootstrap_compat', '= 1.0.0'
-    gem 'al_cookie', '= 1.0.1'
-
-    gem 'al_analytics', '= 1.0.2'
-    gem 'al_citations', '= 1.0.1'
-    gem 'al_ext_posts', '= 1.0.3'
-    gem 'al_img_tools', '= 1.0.3'
-    gem 'al_search', '= 1.0.3'
-    gem 'al_charts', '= 1.0.1'
-    gem 'al_math', '= 1.0.2'
-    gem 'al_comments', '= 1.0.0'
-    gem 'al_newsletter', '= 1.0.0'
-
-    gem 'al_email_protect', '= 1.0.1'
-    gem 'al_marimo', '= 1.0.0'
-    gem 'al_rtl', '= 1.0.0'
-end
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+gem "webrick", "~> 1.7"
+# gem "ffi", "~> 1.16.3"

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="col-lg-10 offset-lg-1">
+  <div class="card">
+    <h1 class="card-title">Writeups · {{ page.category_name }}</h1>
+    <p>
+      <a href="{{ site.baseurl }}/blog/">All writeups</a>
+      {% for category in site.ctf_categories %} · <a href="{{ site.baseurl }}/blog/categories/{{ category }}/">{{ category }}</a>{% endfor %}
+    </p>
+    {% assign posts = site.categories[page.category_name] %}
+    {% if posts and posts.size > 0 %}
+    <ul>
+      {% for post in posts %}
+      <li class="category-posts">
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span> &nbsp;
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No {{ page.category_name }} writeups yet — coming soon.</p>
+    {% endif %}
+  </div>
+</div>

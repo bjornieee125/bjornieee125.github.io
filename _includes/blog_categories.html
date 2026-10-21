@@ -1,0 +1,6 @@
+{% for category in site.ctf_categories %}
+{% assign count = site.categories[category] | size %}
+<li class="tag-head">
+  <a href="{{ site.baseurl }}/blog/categories/{{ category }}/">{{ category }}</a> <span class="text-muted">({{ count }})</span>
+</li>
+{% endfor %}

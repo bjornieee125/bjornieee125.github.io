@@ -1,0 +1,26 @@
+---
+title: Projects
+layout: default
+permalink: /projects/
+---
+<div class="col-lg-10 offset-lg-1">
+  <div class="card">
+    <h1 class="card-title">Projects</h1>
+    <p>Personal and associative projects — infrastructure, security and more.</p>
+  </div>
+  <div class="row">
+    {% assign projects = site.projects | sort: "importance" %}
+    {% for project in projects %}
+    <div class="col-md-6">
+      <a href="{{ site.baseurl }}{{ project.url }}" class="project-card-link">
+        <div class="card project-card">
+          {% if project.img %}<img class="card-img-top" src="{{ site.baseurl }}/{{ project.img }}" alt="{{ project.title }}" />{% endif %}
+          <h4 class="experience-title">{{ project.title }}</h4>
+          {% if project.category %}<p><span class="btn btn-sm btn-dark">{{ project.category }}</span></p>{% endif %}
+          <p class="experience-desc">{{ project.description }}</p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
