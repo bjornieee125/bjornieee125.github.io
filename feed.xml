@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haissam MOUSSA</title>
-    <description>Portfolio of Haissam MOUSSA (Bjornieee) — Master SSIR student at Université de Toulouse. CTF writeups, homelab and security projects.</description>
+    <description>Portfolio de Haissam MOUSSA (Bjornieee) — étudiant en Master SSIR à l&apos;Université de Toulouse. Writeups CTF, homelab et projets sécurité.</description>
     <link>https://bjornieee125.github.io/</link>
     <atom:link href="https://bjornieee125.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Oct 2026 10:16:39 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2026 10:16:39 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Oct 2026 10:23:20 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2026 10:23:20 +0000</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
 
     
@@ -22,7 +22,7 @@
         
           <item>
             <title>Contact</title>
-            <description>&lt;p&gt;Feel free to reach out for collaboration, CTF discussions or opportunities.&lt;/p&gt;
+            <description>&lt;p&gt;N’hésitez pas à me contacter pour une collaboration, une discussion autour des CTF ou une opportunité.&lt;/p&gt;
 
 &lt;div class=&quot;contact-grid&quot;&gt;
   &lt;a class=&quot;contact-item&quot; href=&quot;mailto:haissammoussa916@gmail.com&quot;&gt;&lt;i class=&quot;fas fa-envelope&quot;&gt;&lt;/i&gt; haissammoussa916@gmail.com&lt;/a&gt;
