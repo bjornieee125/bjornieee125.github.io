@@ -1,1 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://bjornieee125.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://bjornieee125.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2026-10-21T09:55:12+00:00</updated><id>https://bjornieee125.github.io/feed.xml</id><title type="html">Haissam MOUSSA</title><subtitle>Master SSIR student at Université de Toulouse. Cybersecurity, pentesting, CTF writeups and homelab. </subtitle></feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haissam MOUSSA</title>
+    <description>Portfolio of Haissam MOUSSA (Bjornieee) — Master SSIR student at Université de Toulouse. CTF writeups, homelab and security projects.</description>
+    <link>https://bjornieee125.github.io/</link>
+    <atom:link href="https://bjornieee125.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 21 Oct 2026 10:16:39 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2026 10:16:39 +0000</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+
+    
+
+    
+      
+        
+      
+    
+      
+    
+      
+        
+          <item>
+            <title>Contact</title>
+            <description>&lt;p&gt;Feel free to reach out for collaboration, CTF discussions or opportunities.&lt;/p&gt;
+
+&lt;div class=&quot;contact-grid&quot;&gt;
+  &lt;a class=&quot;contact-item&quot; href=&quot;mailto:haissammoussa916@gmail.com&quot;&gt;&lt;i class=&quot;fas fa-envelope&quot;&gt;&lt;/i&gt; haissammoussa916@gmail.com&lt;/a&gt;
+  &lt;a class=&quot;contact-item&quot; href=&quot;https://www.linkedin.com/in/haissammoussa&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt; LinkedIn&lt;/a&gt;
+  &lt;a class=&quot;contact-item&quot; href=&quot;https://github.com/bjornieee125&quot;&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt; GitHub&lt;/a&gt;
+  &lt;a class=&quot;contact-item&quot; href=&quot;https://tryhackme.com/p/Bjornieee&quot;&gt;&lt;i class=&quot;fas fa-flag&quot;&gt;&lt;/i&gt; TryHackMe&lt;/a&gt;
+&lt;/div&gt;
+</description>
+            <link>https://bjornieee125.github.io/contact/</link>
+          </item>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+  </channel>
+</rss>
