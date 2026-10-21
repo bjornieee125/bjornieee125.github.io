@@ -1,21 +1,22 @@
 title: Haissam MOUSSA
-subtitle: Master SSIR student · Cybersecurity · CTF player
+lang: fr
+subtitle: Étudiant en Master SSIR · Cybersécurité · Joueur de CTF
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio of Haissam MOUSSA (Bjornieee) — Master SSIR student at Université de Toulouse.
-  CTF writeups, homelab and security projects.
+  Portfolio de Haissam MOUSSA (Bjornieee) — étudiant en Master SSIR à l'Université de Toulouse.
+  Writeups CTF, homelab et projets sécurité.
 
 url: "https://bjornieee125.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-  - text: Home
+  - text: Accueil
     url: /
-  - text: About
+  - text: À propos
     url: /about
   - text: Writeups
     url: /blog
-  - text: Projects
+  - text: Projets
     url: /projects
   - text: Contact
     url: /contact
@@ -24,44 +25,45 @@ urls:
 author_logo: # e.g. profile.png — put your photo in assets/img/
 author: Haissam
 author_bio: >-
-  Hi, I'm Haissam MOUSSA (aka Bjornieee), a Master's student in Information Systems and Network
-  Security (SSIR) at Université de Toulouse. I'm passionate about offensive security and secure
-  infrastructure: I play CTFs (web, mobile, forensics, crypto, reverse) and publish my writeups here,
-  and I run a Proxmox homelab to practice hardening, segmentation and self-hosting.
+  Salut, je suis Haissam MOUSSA (alias Bjornieee), étudiant en Master Sécurité des Systèmes
+  d'Information et des Réseaux (SSIR) à l'Université de Toulouse. Passionné par la sécurité offensive
+  et les infrastructures sécurisées : je joue en CTF (web, mobile, forensics, crypto, reverse) et je publie
+  mes writeups ici, et je fais tourner un homelab Proxmox pour pratiquer le durcissement, la segmentation
+  et l'auto-hébergement.
 author_email: "haissammoussa916@gmail.com"
 author_location: Toulouse, France
 author_website_url:
-typewrite-text: Cybersecurity student · CTF player · Homelab enthusiast
+typewrite-text: Étudiant en cybersécurité · Joueur de CTF · Passionné de homelab
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover. Image should be in /assets/img
 
-# Skills (shown as progress bars on the About page, level in %)
+# Compétences (barres de progression sur la page À propos, niveau en %)
 author_skills:
-  - name: Web security (Burp Suite)
+  - name: Sécurité web (Burp Suite)
     level: 75
-  - name: Network scanning & analysis (Nmap, Wireshark)
+  - name: Scan et analyse réseau (Nmap, Wireshark)
     level: 70
-  - name: Python & Bash scripting
+  - name: Scripting Python & Bash
     level: 70
-  - name: Linux administration
+  - name: Administration Linux
     level: 75
-  - name: Virtualization & containers (Proxmox, Podman)
+  - name: Virtualisation & conteneurs (Proxmox, Podman)
     level: 65
-  - name: Automation (Ansible, GitHub Actions)
+  - name: Automatisation (Ansible, GitHub Actions)
     level: 55
-  - name: Reverse engineering (Ghidra)
+  - name: Rétro-ingénierie (Ghidra)
     level: 40
-  - name: Password cracking (Hashcat, John)
+  - name: Cassage de mots de passe (Hashcat, John)
     level: 50
 
 # Experiences
 author_work_experiences:
-  - company_name: UPSILON — Junior Enterprise of Université de Toulouse
+  - company_name: UPSILON — Junior-Entreprise de l'Université de Toulouse
     company_logo:
     company_url: https://upsilon-conseil.com
-    designation: IS & Quality Pole Member (2023 – present)
+    designation: Membre du pôle SI & Qualité (2023 – aujourd'hui)
     description: >-
-      Quality Management System (SMQ) initiatives, process automation within the IS pole,
-      and advisory audits of other junior enterprises on behalf of the CNJE.
+      Mise en place du Système de Management de la Qualité (SMQ), automatisation des processus du pôle SI,
+      et audits-conseil d'autres Junior-Entreprises pour le compte de la CNJE.
     visibility: true
 
 # Education
@@ -69,26 +71,26 @@ author_education_details:
   - college_logo:
     college_name: Université de Toulouse
     college_url:
-    college_degree: Master SSIR — Information Systems & Network Security
-    description: "2024 – 2026 · Penetration testing, network security, governance, cryptography, forensics"
+    college_degree: Master SSIR — Sécurité des Systèmes d'Information et des Réseaux
+    description: "2024 – 2026 · Tests d'intrusion, sécurité réseau, gouvernance, cryptographie, forensics"
     visibility: true
   - college_logo:
     college_name: Université de Toulouse
     college_url:
-    college_degree: Bachelor's Degree in Computer Science
-    description: "2021 – 2024 · Networks, systems and software development"
+    college_degree: Licence Informatique
+    description: "2021 – 2024 · Réseaux, systèmes et développement logiciel"
     visibility: true
 
 # Projects (short list on the About page; full pages live in _projects/)
 author_project_details:
   - project_thumbnail:
-    project_title: Proxmox Homelab
-    project_description: Personal Proxmox-based infrastructure for security hardening, segmentation and self-hosting.
+    project_title: Homelab Proxmox
+    project_description: Infrastructure personnelle sous Proxmox pour le durcissement, la segmentation et l'auto-hébergement.
     project_url: /projects/homelab/
     visibility: true
   - project_thumbnail:
-    project_title: UPSILON — Junior Enterprise
-    project_description: IS & Quality pole — SMQ, automation and CNJE advisory audits.
+    project_title: UPSILON — Junior-Entreprise
+    project_description: Pôle SI & Qualité — SMQ, automatisation et audits-conseil CNJE.
     project_url: /projects/upsilon/
     visibility: true
 

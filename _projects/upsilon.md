@@ -1,45 +1,44 @@
 ---
-layout: page
-title: UPSILON — Junior Enterprise
-description: IS & Quality pole member at UPSILON, Junior Enterprise of Université de Toulouse. SMQ, automation, and CNJE advisory audits.
+title: UPSILON — Junior-Entreprise
+description: Membre du pôle SI & Qualité d'UPSILON, la Junior-Entreprise de l'Université de Toulouse. SMQ, automatisation et audits-conseil CNJE.
 importance: 2
-category: associations
+category: associatif
 ---
 
-## About UPSILON
+## À propos d'UPSILON
 
-[UPSILON](https://upsilon-conseil.com/) is the **Junior Enterprise of the Université de Toulouse**, part of the CNJE (Confédération Nationale des Junior-Entreprises) network. It provides real consulting and IT services to clients while training students in professional and project management skills.
-
----
-
-## My Role — IS & Quality Pole
-
-As a member of the **Information Systems & Quality** pole, my work spanned two main areas:
-
-### Quality Management (SMQ)
-- Contributed to the implementation and maintenance of a **Quality Management System** aligned with ISO 9001 principles
-- Participated in process documentation and continuous improvement initiatives
-- Reviewed internal procedures to ensure compliance with CNJE standards
-
-### Automation & IS
-- Led automation projects to streamline internal processes (reporting, workflows)
-- Contributed to tooling and internal CI/CD pipelines
-- Supported IT infrastructure management within the association
+[UPSILON](https://upsilon-conseil.com/) est la **Junior-Entreprise de l'Université de Toulouse**, membre du réseau de la CNJE (Confédération Nationale des Junior-Entreprises). Elle réalise de vraies missions de conseil et de services informatiques pour des clients, tout en formant les étudiants à la gestion de projet et au monde professionnel.
 
 ---
 
-## CNJE Advisory Audits
+## Mon rôle — pôle SI & Qualité
 
-On behalf of the **CNJE**, I participated in **advisory audits** of other Junior Enterprises across France:
-- Evaluated their IS maturity, internal processes, and governance practices
-- Delivered actionable recommendations to help them align with CNJE standards
-- Worked collaboratively with cross-functional audit teams
+En tant que membre du pôle **Systèmes d'Information & Qualité**, j'ai travaillé sur deux axes :
+
+### Management de la qualité (SMQ)
+- Participation à la mise en place et au maintien d'un **Système de Management de la Qualité** inspiré des principes ISO 9001
+- Documentation des processus et démarches d'amélioration continue
+- Revue des procédures internes pour garantir la conformité aux standards CNJE
+
+### Automatisation & SI
+- Pilotage de projets d'automatisation des processus internes (reporting, workflows)
+- Contribution à l'outillage interne et aux pipelines CI/CD
+- Support à la gestion de l'infrastructure informatique de l'association
 
 ---
 
-## Skills developed
+## Audits-conseil CNJE
 
-- Quality management (ISO 9001 principles, SMQ)
-- Process documentation and audit methodology
-- Team collaboration and project management
-- Technical writing and client-facing communication
+Pour le compte de la **CNJE**, j'ai participé à des **audits-conseil** d'autres Junior-Entreprises en France :
+- Évaluation de leur maturité SI, de leurs processus internes et de leur gouvernance
+- Recommandations concrètes pour les aider à s'aligner sur les standards CNJE
+- Travail en équipes d'audit pluridisciplinaires
+
+---
+
+## Compétences développées
+
+- Management de la qualité (principes ISO 9001, SMQ)
+- Documentation de processus et méthodologie d'audit
+- Travail en équipe et gestion de projet
+- Rédaction technique et communication client

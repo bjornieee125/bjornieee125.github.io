@@ -4,7 +4,7 @@ layout: page
 permalink: /contact/
 ---
 
-Feel free to reach out for collaboration, CTF discussions or opportunities.
+N'hésitez pas à me contacter pour une collaboration, une discussion autour des CTF ou une opportunité.
 
 <div class="contact-grid">
   <a class="contact-item" href="mailto:{{ site.author_email }}"><i class="fas fa-envelope"></i> {{ site.author_email }}</a>

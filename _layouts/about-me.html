@@ -102,7 +102,7 @@ layout: default
     </div>
 
     <div class="card">
-      <h1>Skills</h1>
+      <h1 class="skills-title">Compétences</h1>
 
       {%- include author_skills.html -%}
     </div>
@@ -110,12 +110,12 @@ layout: default
   <div class="col-lg-8">
     {% if site.author_bio %}
     <div class="card">
-      <h1 class="card-title">About</h1>
+      <h1 class="card-title">À propos</h1>
       <p>{{ site.author_bio }}</p>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
-      <h1 class="card-title">Projects</h1>
+      <h1 class="card-title">Projets</h1>
       <br />
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
@@ -134,7 +134,7 @@ layout: default
           <p class="experience-desc">{{ project.project_description }}</p>
           <p>
             <a class="project-link" href="{% if project.project_url contains '://' %}{{ project.project_url }}{% else %}{{ site.baseurl }}{{ project.project_url }}{% endif %}"
-              >Read more →</a
+              >En savoir plus →</a
             >
           </p>
         </div>
@@ -144,7 +144,7 @@ layout: default
     </div>
     {% endif %} {% if site.show_author_work_experiences == true %}
     <div class="card">
-      <h1 class="card-title">Work Experience</h1>
+      <h1 class="card-title">Expérience</h1>
       <br />
       {% for exp in site.author_work_experiences %} {% if exp.visibility == true
       %}
@@ -168,7 +168,7 @@ layout: default
     </div>
     {% endif %} {% if site.show_author_education_details == true %}
     <div class="card">
-      <h1 class="card-title">Education</h1>
+      <h1 class="card-title">Formation</h1>
       <br />
       {% for detail in site.author_education_details %} {% if detail.visibility
       == true %}

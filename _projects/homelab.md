@@ -1,58 +1,57 @@
 ---
-layout: page
-title: Proxmox Homelab
-description: A personal Proxmox-based infrastructure for learning secure architecture and self-hosting services.
+title: Homelab Proxmox
+description: Une infrastructure personnelle sous Proxmox pour apprendre l'architecture sécurisée et auto-héberger des services.
 importance: 1
 category: infrastructure
 ---
 
-## Overview
+## Présentation
 
-A personal homelab built on **Proxmox VE** to simulate realistic enterprise-grade infrastructure and explore security hardening in practice. The lab serves a dual purpose: learning and experimentation, as well as hosting self-managed services.
+Un homelab personnel sous **Proxmox VE**, pour reproduire une infrastructure proche de celle d'une entreprise et mettre en pratique le durcissement sécurité. Il a un double objectif : apprendre et expérimenter, et héberger mes propres services.
 
 ---
 
-## Goals
+## Objectifs
 
-- Design and implement a **segmented, hardened network** from scratch
-- Practice infrastructure-as-code with **Ansible** for reproducibility
-- Self-host critical services to avoid relying on third-party SaaS
-- Experiment with intrusion detection, monitoring, and incident response
+- Concevoir et déployer un **réseau segmenté et durci** de A à Z
+- Pratiquer l'infrastructure-as-code avec **Ansible** pour des déploiements reproductibles
+- Auto-héberger des services critiques plutôt que dépendre de SaaS tiers
+- Expérimenter la détection d'intrusion, la supervision et la réponse à incident
 
 ---
 
 ## Stack
 
-| Component | Technology |
+| Composant | Technologie |
 |---|---|
-| Hypervisor | Proxmox VE |
-| Containerization | Podman |
-| Config management | Ansible |
+| Hyperviseur | Proxmox VE |
+| Conteneurisation | Podman |
+| Gestion de configuration | Ansible |
 | OS | Debian / Rocky Linux |
-| Network | VLAN segmentation (in progress) |
+| Réseau | Segmentation VLAN (en cours) |
 
 ---
 
-## Hosted Services
+## Services hébergés
 
-- **Vaultwarden** — Self-hosted Bitwarden-compatible password manager
-- *(More services coming as the lab grows)*
-
----
-
-## What I'm learning
-
-- Network segmentation and firewall rule design
-- Hardening Linux systems (CIS Benchmarks, SSH hardening, fail2ban)
-- Reproducible deployments with Ansible playbooks
-- Container security with Podman (rootless containers)
+- **Vaultwarden** — gestionnaire de mots de passe auto-hébergé compatible Bitwarden
+- *(d'autres services à venir au fil de l'évolution du lab)*
 
 ---
 
-## Status
+## Ce que j'apprends
 
-🟡 **In progress** — Core infrastructure up, actively expanding services and security controls.
+- Segmentation réseau et conception de règles de pare-feu
+- Durcissement de systèmes Linux (CIS Benchmarks, durcissement SSH, fail2ban)
+- Déploiements reproductibles avec des playbooks Ansible
+- Sécurité des conteneurs avec Podman (conteneurs rootless)
 
 ---
 
-*This project is documented as I build it. Updates will be posted here and potentially as detailed write-ups.*
+## Statut
+
+🟡 **En cours** — le cœur de l'infrastructure est en place, j'étends activement les services et les contrôles de sécurité.
+
+---
+
+*Ce projet est documenté au fil de sa construction. Les mises à jour seront publiées ici, et peut-être sous forme de writeups détaillés.*

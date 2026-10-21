@@ -1,54 +1,54 @@
 ---
-# Copy to _posts/YYYY-MM-DD-nom-ctf-challenge.md and fill in.
-title: "[CTF Name] — Challenge Name"
-summary: "Short description of the challenge and what you learned."
+# À copier vers _posts/AAAA-MM-JJ-nom-ctf-challenge.md puis à compléter.
+title: "[Nom du CTF] — Nom du challenge"
+summary: "Courte description du challenge et de ce que tu en as retenu."
 date: 2025-01-01 12:00:00 +0100
-categories: [web] # filter: web | mobile | forensics | crypto | reverse | pwn | osint | misc
+categories: [web] # filtre : web | mobile | forensics | crypto | reverse | pwn | osint | misc
 tags: [ctf]
-# thumbnail: /assets/img/writeups/ctf-name.png
+# thumbnail: /assets/img/writeups/nom-ctf.png
 ---
 
-## Challenge Info
+## Infos du challenge
 
-| Field | Value |
+| Champ | Valeur |
 |---|---|
-| **CTF** | CTF Name |
-| **Category** | Web |
-| **Difficulty** | Easy / Medium / Hard |
+| **CTF** | Nom du CTF |
+| **Catégorie** | Web |
+| **Difficulté** | Facile / Moyen / Difficile |
 | **Points** | 100 |
-| **Solved** | ✅ Yes |
+| **Résolu** | ✅ Oui |
 
 ---
 
-## Description
+## Énoncé
 
-> Paste the original challenge description here.
+> Colle ici l'énoncé original du challenge.
 
 ---
 
 ## Reconnaissance
 
-What did you observe first? What did you enumerate?
+Qu'as-tu observé en premier ? Qu'as-tu énuméré ?
 
 ```bash
-# example command
+# exemple de commande
 nmap -sV -p- target.ctf
 ```
 
 ---
 
-## Vulnerability Analysis
+## Analyse de la vulnérabilité
 
-What vulnerability did you identify and why?
+Quelle vulnérabilité as-tu identifiée, et pourquoi ?
 
 ---
 
 ## Exploitation
 
-Step-by-step exploitation.
+Exploitation étape par étape.
 
 ```python
-# exploit script
+# script d'exploitation
 import requests
 
 url = "http://target.ctf/vuln"
@@ -62,13 +62,13 @@ print(r.text)
 ## Flag
 
 ```
-CTF{example_flag_here}
+CTF{exemple_de_flag}
 ```
 
 ---
 
-## Key Takeaways
+## Ce que j'en retiens
 
-- What did you learn?
-- What would you do differently?
-- Any interesting resources to share?
+- Qu'as-tu appris ?
+- Que ferais-tu différemment ?
+- Des ressources intéressantes à partager ?
