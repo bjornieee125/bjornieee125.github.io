@@ -12,7 +12,7 @@ bundle exec jekyll serve   # http://localhost:4000
 ## Content
 
 - **Profile, skills, experience, education**: `_config.yml`
-- **Photo**: `assets/img/profile.png` (and `assets/img/authors/haissam.png`)
+- **Photo**: add it to `assets/img/` and set `author_logo` in `_config.yml` (and `avatar` in `_data/authors.yml`)
 - **Projects**: `_projects/*.md`
 - **CTF writeups**: copy `_templates/ctf-writeup.md` to `_posts/YYYY-MM-DD-nom-ctf-challenge.md`.
   Set `categories:` to one of `web | mobile | forensics | crypto | reverse | pwn | osint | misc`

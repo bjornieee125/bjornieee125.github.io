@@ -21,7 +21,7 @@ urls:
     url: /contact
 
 # Author details
-author_logo: profile.png # replace assets/img/profile.png with your photo
+author_logo: # e.g. profile.png — put your photo in assets/img/
 author: Haissam
 author_bio: >-
   Hi, I'm Haissam MOUSSA (aka Bjornieee), a Master's student in Information Systems and Network

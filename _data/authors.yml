@@ -1,7 +1,7 @@
 haissam:
   name: Haissam MOUSSA
   username: haissam
-  avatar: haissam.png
+  avatar: # e.g. haissam.png in assets/img/authors/
   bio: "Master SSIR student at Université de Toulouse — CTF player and homelab enthusiast."
   email: haissammoussa916@gmail.com
   social:
