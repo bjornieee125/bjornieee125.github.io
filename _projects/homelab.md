@@ -2,7 +2,6 @@
 layout: page
 title: Proxmox Homelab
 description: A personal Proxmox-based infrastructure for learning secure architecture and self-hosting services.
-img: assets/img/projects/homelab.jpg
 importance: 1
 category: infrastructure
 ---

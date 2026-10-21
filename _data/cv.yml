@@ -1,79 +1,77 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Haissam MOUSSA
-    - name: Location
-      value: Toulouse, France
-    - name: Email
-      value: haissammoussa916@gmail.com
-    - name: Languages
-      value: French (native), English (professional)
+cv:
+  name: Haissam MOUSSA
+  label: Master SSIR student — Cybersecurity
+  email: haissammoussa916@gmail.com
+  location: Toulouse, France
+  summary: Information systems and network security student, CTF player and homelab enthusiast.
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Master SSIR — Sécurité des Systèmes d'Information et des Réseaux
-      institution: Université de Toulouse, France
-      year: 2024 – 2026
-      description:
-        - Information Systems & Network Security
-        - "Key topics: Penetration testing, Network security, Governance, Cryptography, Forensics"
-    - title: Bachelor's Degree in Computer Science
-      institution: Université de Toulouse, France
-      year: 2021 – 2024
-      description:
-        - Foundation in networks, systems, and software development
+  social_networks:
+    - network: GitHub
+      username: bjornieee
+    - network: LinkedIn
+      username: haissammoussa
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: IS & Quality Pole Member — Junior Enterprise
-      institution: UPSILON, Junior Enterprise of Université de Toulouse
-      year: 2023 – Present
-      description:
-        - Implemented Quality Management System (SMQ) initiatives
-        - Led process automation projects within the IS pole
-        - Conducted advisory audits for other junior enterprises on behalf of CNJE (Confédération Nationale des Junior-Entreprises)
-        - Contributed to internal tooling and CI/CD processes
+  sections:
+    Education:
+      - institution: Université de Toulouse
+        location: Toulouse, France
+        area: Sécurité des Systèmes d'Information et des Réseaux (SSIR)
+        studyType: Master
+        start_date: 2024
+        end_date: 2026
+        highlights:
+          - "Key topics: penetration testing, network security, governance, cryptography, forensics"
 
-- title: Projects
-  type: time_table
-  contents:
-    - title: Proxmox Homelab
-      year: 2025 – Present
-      description:
-        - Built and manages a Proxmox-based virtual infrastructure
-        - Hosts self-managed services (Vaultwarden password manager, etc.)
-        - Experiments with network segmentation and security hardening
-        - Tools used — Proxmox, Podman, Ansible, Linux
+      - institution: Université de Toulouse
+        location: Toulouse, France
+        area: Computer Science
+        studyType: Bachelor
+        start_date: 2021
+        end_date: 2024
+        highlights:
+          - Foundation in networks, systems and software development
 
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: Security
-      items:
-        - Burp Suite (web application testing)
-        - Nmap (network scanning & enumeration)
-        - Wireshark (packet analysis)
-        - Ghidra (reverse engineering)
-        - Hashcat & John the Ripper (password cracking)
-    - title: Programming & Scripting
-      items:
-        - Python (scripting, automation, CTF tooling)
-        - Bash (system scripting, automation)
-    - title: Infrastructure & DevOps
-      items:
-        - Linux (daily driver, server administration)
-        - Proxmox (hypervisor, VM & CT management)
-        - Podman (containerization)
-        - Ansible (configuration management)
-        - CI/CD (GitHub Actions)
+    Experience:
+      - company: UPSILON — Junior Enterprise of Université de Toulouse
+        position: IS & Quality Pole Member
+        location: Toulouse, France
+        start_date: 2023
+        end_date: present
+        highlights:
+          - Implemented Quality Management System (SMQ) initiatives
+          - Led process automation projects within the IS pole
+          - Conducted advisory audits of other junior enterprises on behalf of the CNJE
+          - Contributed to internal tooling and CI/CD processes
 
-- title: CTF & Platforms
-  type: list
-  contents:
-    - "CTFtime — Active competitor across Web, Mobile, Forensics, Crypto, Reverse categories"
-    - "TryHackMe — <a href='https://tryhackme.com/p/Bjornieee' target='_blank'>Bjornieee</a>"
-    - "HackTheBox — Starting (coming soon)"
-    - "Root-Me — Starting (coming soon)"
+    Projects:
+      - name: Proxmox Homelab
+        start_date: 2025
+        end_date: present
+        summary: Proxmox-based virtual infrastructure for security experimentation and self-hosting.
+        highlights:
+          - Self-hosted services (Vaultwarden, ...)
+          - Network segmentation and security hardening
+          - Proxmox, Podman, Ansible, Linux
+
+    Skills:
+      - name: Security
+        icon: fa-solid fa-shield-halved
+        keywords: "Burp Suite, Nmap, Wireshark, Ghidra, Hashcat, John the Ripper"
+      - name: Programming & Scripting
+        icon: fa-solid fa-code
+        keywords: "Python, Bash"
+      - name: Infrastructure & DevOps
+        icon: fa-solid fa-server
+        keywords: "Linux, Proxmox, Podman, Ansible, GitHub Actions"
+
+    Languages:
+      - name: French
+        summary: Native
+      - name: English
+        summary: Professional
+
+    Interests:
+      - name: CTF
+        keywords: "Web, Mobile, Forensics, Crypto, Reverse"
+      - name: Platforms
+        keywords: "TryHackMe (Bjornieee), HackTheBox, Root-Me"

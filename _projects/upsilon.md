@@ -2,7 +2,6 @@
 layout: page
 title: UPSILON — Junior Enterprise
 description: IS & Quality pole member at UPSILON, Junior Enterprise of Université de Toulouse. SMQ, automation, and CNJE advisory audits.
-img: assets/img/projects/upsilon.jpg
 importance: 2
 category: associations
 ---
